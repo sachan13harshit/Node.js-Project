@@ -1,0 +1,56 @@
+{
+	"info": {
+		"_postman_id": "6b1638e3-0871-4764-bc50-88d2a8c28273",
+		"name": "Node.js Project Documentation",
+		"description": "Welcome to the Product API Documentation. This API allows you to interact with a dataset of products, enabling you to retrieve, filter, and sort product data. The following endpoints are available:\n\n- **Get All Products**: Retrieve the complete list of products.\n    \n- **Get All Products Sorted by Name**: Retrieve the list of products sorted by their name in ascending order.\n    \n- **Get All Products Sorted by Version**: Retrieve the list of products sorted by their version in ascending order.\n    \n- **Get All Products Sorted by Language**: Retrieve the list of products sorted by their language in ascending order.\n    \n- **Filter Products by Language**: Retrieve the list of products filtered by a specified language.\n    \n\nEach endpoint description includes the HTTP method, URL, parameters, and example responses. Follow the instructions to utilize the API effectively.",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "34154900"
+	},
+	"item": [
+		{
+			"name": "Get All Products",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"description": "This endpoint retrieves a list of all products. Each product contains detailed information such as name, language, ID, bio, and version. The response is a JSON array of product objects."
+			},
+			"response": []
+		},
+		{
+			"name": "Get all Products sorted by name",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"description": "This endpoint retrieves a list of all products sorted by their name in ascending order. The response is a JSON array of product objects sorted by name."
+			},
+			"response": []
+		},
+		{
+			"name": "Get All Products Sorted by Language",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"description": "This endpoint retrieves a list of all products sorted by their language in ascending order. The response is a JSON array of product objects sorted by language."
+			},
+			"response": []
+		},
+		{
+			"name": "Get Products Filtered by Language",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"description": "This endpoint retrieves a list of products filtered by a specified language. The response is a JSON array of product objects that match the specified language."
+			},
+			"response": []
+		},
+		{
+			"name": "Get Products sorted by version",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"description": "This endpoint retrieves a list of all products sorted by their version in ascending order. The response is a JSON array of product objects sorted by version."
+			},
+			"response": []
+		}
+	]
+}
