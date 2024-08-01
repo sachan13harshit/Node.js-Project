@@ -53,7 +53,7 @@ Welcome to the Product API Documentation. This API allows you to interact with a
 #### Example Request
 
 ```sh
-curl --location 'http://localhost:3000/api/products/sorted-by-language'
+curl --location 'http://localhost:3000/api/products/sort=language'
 
 [
   {
