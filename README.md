@@ -20,6 +20,7 @@ Welcome to the Product API Documentation. This API allows you to interact with a
   ```
 **Run the server**
 ```sh
+   cd src
    node server.js
   ```
 
